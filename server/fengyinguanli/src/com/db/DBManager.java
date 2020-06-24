@@ -8,7 +8,7 @@ public class DBManager {
     public static final String DRIVER = "com.mysql.jdbc.Driver";
     public static final String USER = "root";
     public static final String PASS = "123456";
-    public static final String URL = "jdbc:mysql://localhost:3306/fengyinguanli";
+    public static final String URL = "jdbc:mysql://localhost:3306/fengyinguanli?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false";
 
     // ��̬��Ա��֧�ֵ�̬ģʽ
     private static DBManager per = null;
