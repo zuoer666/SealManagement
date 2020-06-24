@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>com.servlet.test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FengYinChaXun</servlet-name>
+		<servlet-class>com.servlet.FengYinChaXun</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FengYinChaXun</servlet-name>
+		<url-pattern>/FengYinChaXun</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BiaoHaoChaXun</servlet-name>
+		<servlet-class>com.servlet.BiaoHaoChaXun</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BiaoHaoChaXun</servlet-name>
+		<url-pattern>/BiaoHaoChaXun</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CaoZuoYuanAnZhuang</servlet-name>
+		<servlet-class>com.servlet.CaoZuoYuanAnZhuang</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CaoZuoYuanAnZhuang</servlet-name>
+		<url-pattern>/CaoZuoYuanAnZhuang</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CaoZuoYuanChaiChu</servlet-name>
+		<servlet-class>com.servlet.CaoZuoYuanChaiChu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CaoZuoYuanChaiChu</servlet-name>
+		<url-pattern>/CaoZuoYuanChaiChu</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CaoZuoYuanXunJian</servlet-name>
+		<servlet-class>com.servlet.CaoZuoYuanXunJian</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CaoZuoYuanXunJian</servlet-name>
+		<url-pattern>/CaoZuoYuanXunJian</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TongJiXunJian</servlet-name>
+		<servlet-class>com.servlet.TongJiXunJian</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TongJiXunJian</servlet-name>
+		<url-pattern>/teTongJiXunJianst</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+		<servlet-name>TongJiLingYong</servlet-name>
+		<servlet-class>com.servlet.TongJiLingYong</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TongJiLingYong</servlet-name>
+		<url-pattern>/TongJiLingYong</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+  <servlet>
+		<servlet-name>QuanXianChaXun</servlet-name>
+		<servlet-class>com.servlet.QuanXianChaXun</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QuanXianChaXun</servlet-name>
+		<url-pattern>/QuanXianChaXun</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>XunJian</servlet-name>
+		<servlet-class>com.servlet.XunJian</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XunJian</servlet-name>
+		<url-pattern>/XunJian</url-pattern>
+	</servlet-mapping>
+	
+	
+   <servlet>
+		<servlet-name>FengYinAnZhuang</servlet-name>
+		<servlet-class>com.servlet.FengYinAnZhuang</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FengYinAnZhuang</servlet-name>
+		<url-pattern>/FengYinAnZhuang</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>FengYinChaiChu</servlet-name>
+		<servlet-class>com.servlet.FengYinChaiChu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FengYinChaiChu</servlet-name>
+		<url-pattern>/FengYinChaiChu</url-pattern>
+	</servlet-mapping>
+  
+  
+  
+  	<servlet>
+		<servlet-name>PiLiangLingQu</servlet-name>
+		<servlet-class>com.servlet.PiLiangLingQu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PiLiangLingQu</servlet-name>
+		<url-pattern>/PiLiangLingQu</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+ 	 <servlet>
+		<servlet-name>DanGeLingQu</servlet-name>
+		<servlet-class>com.servlet.DanGeLingQu</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DanGeLingQu</servlet-name>
+		<url-pattern>/DanGeLingQu</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>RegLet</servlet-name>
+		<servlet-class>com.servlet.RegLet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogLet</servlet-name>
+		<servlet-class>com.servlet.LogLet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogLet</servlet-name>
+		<url-pattern>/LogLet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ChaXunShangJi</servlet-name>
+		<servlet-class>com.servlet.ChaXunShangJi</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChaXunShangJi</servlet-name>
+		<url-pattern>/ChaXunShangJi</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegLet</servlet-name>
+		<url-pattern>/RegLet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

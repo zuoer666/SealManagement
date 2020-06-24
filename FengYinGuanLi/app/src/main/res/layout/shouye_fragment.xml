@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/top_menu_shouye" />
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/shouye1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/shouye_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="封 印 领 用" />
+
+            <Button
+                android:id="@+id/shouye2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shouye_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="封 印 安 装" />
+
+            <Button
+                android:id="@+id/shouye3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shouye_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="封 印 拆 除" />
+
+            <Button
+                android:id="@+id/shouye4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shouye_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="封 印 巡 检" />
+
+            <Button
+                android:id="@+id/shouye5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shouye_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="查 询 统 计" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

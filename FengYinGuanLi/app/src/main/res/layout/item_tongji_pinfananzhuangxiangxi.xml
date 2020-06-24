@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_anzhuangren"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安装人 ："/>
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_anzhuanhshijian"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安装时间 ："/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_chaichuren"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拆除人 ："/>
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_chaichushijian"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拆除时间 ："/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="地理位置 : "/>
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_diliweizhi"
+            android:enabled="true"
+            android:gravity="top"
+            android:maxLength="700"
+            android:text="*********************"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_fengyinhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="封印号："/>
+        <TextView
+            android:id="@+id/tv_tongji_pinfananzhuang_dianbiaoxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电表箱 ："/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_Gray" />
+
+</LinearLayout>

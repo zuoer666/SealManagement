@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/top_main_chaichu" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_alignRight="@+id/et_other_info"-->
+            <!--android:src="@drawable/laba" />-->
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:text="温馨提示：如果有电表箱以下扫码请全扫，否则下次巡检整个电表箱内的表都需扫码"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="封印扫码："
+                android:textSize="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ed_ap_shape"
+                android:weightSum="4"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_scan_chaichu1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_alignRight="@+id/et_other_info"
+                    android:src="@drawable/ic_infobtn" />
+
+                <EditText
+                    android:layout_marginRight="5dp"
+                    android:hint="封印号(不可以手动录入)"
+                    android:id="@+id/et_chaichu_fengyin_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:padding="10dp"
+                    android:layout_weight="3"
+                    android:textColor="@color/red"
+                    android:textColorHint="@color/red"
+                    android:background="@drawable/ed_ap_shape"
+                    android:maxLines="1"
+                    android:inputType="number" />
+                <!--<Button-->
+                    <!--android:id="@+id/btn_chaichu_fengyin_queding"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/red_btn"-->
+                    <!--android:text="确定"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="20dp" />-->
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="电表扫码："
+                android:textSize="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ed_ap_shape"
+                android:weightSum="4"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_scan_chaichu2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_alignRight="@+id/et_other_info"
+                    android:src="@drawable/ic_infobtn" />
+
+                <EditText
+                    android:hint="电表号(不可以手动录入)"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/et_chaichu_dianbiao_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:padding="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/ed_ap_shape"
+                    android:textColor="@color/red"
+                    android:textColorHint="@color/red"
+                    android:maxLines="1"
+                    android:inputType="number" />
+                <!--<Button-->
+                    <!--android:id="@+id/btn_chaichu_dianbiao_queding"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/red_btn"-->
+                    <!--android:text="确定"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="20dp" />-->
+            </LinearLayout>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="原来的电表箱号码："-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@drawable/ed_ap_shape"-->
+                <!--android:weightSum="4"-->
+                <!--android:focusable="true"-->
+                <!--android:focusableInTouchMode="true"-->
+                <!--android:gravity="center">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/btn_scan_chaichu3"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_alignRight="@+id/et_other_info"-->
+                    <!--android:src="@drawable/ic_infobtn" />-->
+
+                <!--<EditText-->
+                    <!--android:hint="原来的电表箱号码(不可手动)"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:id="@+id/et_chaichu_dianbiaoxiangyuanlai_info"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:background="@drawable/ed_ap_shape"-->
+                    <!--android:textColor="@color/red"-->
+                    <!--android:textColorHint="@color/red"-->
+                    <!--android:maxLines="1"-->
+                    <!--android:inputType="number" />-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/btn_chaichu_dianbiao_queding"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/red_btn"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="确定"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="拆除后的电表箱号码："
+                android:textSize="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ed_ap_shape"
+                android:weightSum="4"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_scan_chaichu4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_alignRight="@+id/et_other_info"
+                    android:src="@drawable/ic_infobtn" />
+
+                <EditText
+                    android:hint="现在的电表箱号码(不可手动)"
+
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/et_chaichu_dianbiaoxiangxianzai_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:padding="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/ed_ap_shape"
+                    android:textColor="@color/red"
+                    android:textColorHint="@color/red"
+                    android:maxLines="1"
+                    android:inputType="number" />
+                <!--<Button-->
+                <!--android:id="@+id/btn_chaichu_dianbiao_queding"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/red_btn"-->
+                <!--android:text="确定"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="20dp" />-->
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_chaichu_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/red_btn"
+            android:text="提    交"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+</ScrollView>
